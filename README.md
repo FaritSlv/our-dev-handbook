@@ -125,3 +125,22 @@ Use the same indentation style as other codes in one project.
 Use 'let' and 'const' instead of 'var'.
 
 Use 'if else' for helping describing high readability logic. 'Lazy return' is not recommended.
+
+```javascript
+// 'return' command should always be used to actually return something.
+
+// Good style.
+const a = (x) => {
+    if (!x) {
+        console.log(x);
+    }
+};
+
+// Bad style.
+const a = (x) => {
+    if (x) {
+        return;// This return is only for stopping running codes below. We call this 'lazy return'.
+    }
+    console.log(x);
+};
+```
