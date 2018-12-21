@@ -112,7 +112,7 @@ Use UPPER_CASE for constant data (Logically. Different from ECMAScript's "const"
 
 ## Syntax
 
-No 'magic number' or 'magic string'.
+No ['magic number' or 'magic string'](https://en.wikipedia.org/wiki/Magic_number_%28programming%29).
 
 Use [semicolon](https://github.com/tc39/ecma262/pull/1062/files) as you can.
 
@@ -122,7 +122,7 @@ Write comments so that anyone can review or redevelop your code with high effici
 
 Use the same indentation style as other codes in one project.
 
-Use 'let' and 'const' instead of 'var'.
+Use 'const' and 'let' instead of 'var'.
 
 Use 'if else' for helping describing high readability logic. 'Lazy return' is not recommended.
 
